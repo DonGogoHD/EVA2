@@ -11,11 +11,19 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url(fondo2.png);
+            background-image: url(Imagenes/fondo.png);
             background-size: cover;
             background-position: auto;
         }
 
+        @media screen and (min-width: 480px){
+            body {
+                background-image: url(Imagenes/fondo2.png);
+                background-size: 100%;
+                background-position: auto;
+            }
+        }
+        
         header {
             background-color: #333;
             color: #fff;
@@ -107,9 +115,24 @@
             font-family: 'Arial', sans-serif; 
         }
 
-    </style>
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            background-color: #ff0cb6;
+            padding: 10px;
+        }
 
+        .grid-container > div {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid rgba(0, 0, 0, 0.8);
+            padding: 10px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
 </head>
+    
 <body>
     <header>
         <nav>
@@ -123,7 +146,7 @@
     <main>
 
         <div class="relative">
-            <img src="pixelcut-export.jpeg" alt="personajes" class="imagen" />
+            <img src="Imagenes/pixelcut-export.png" alt="personajes" class="imagen" />
             <div class="overlay">
                 <div class="overlay-text">
                     <h1>GOGAME</h1>
@@ -134,15 +157,29 @@
         <section id="quienes-somos">
             <h2>Quienes somos</h2>
             <p>Somos una pagina que les simplifica la vida a los gamers aqui podra encontrar algunas de las mejores paginas de emuladores, juegos y noticias.</p>
+            <div class="grid-container">
+                <div class="emuladores">
+                    <a href="https://vimm.net/emulate"><img src="Imagenes/emuladores.png" alt="emulador" width="200px"></a>
+                    <p>EMULADORES</p>
+                </div>
+
+                <div class="juegos">
+                    <a href="https://vimm.net/vaul"><img src="Imagenes/juegos.jpg" alt="juegos" width="300px"></a>
+                    <p>VIDEOJUEGOS</p>
+                </div>
+
+                <div class="noticias">
+                    <a href="https://www.levelup.com/noticias"><img src="Imagenes/noticias.jpeg" alt="noticias" width="200px"></a>
+                    <p>NOTICIAS</p>
+                </div>
         </section>
+        
 <hr>
+        
         <section id="contactenos">
             <h2>Contactenos</h2>
             <button><a href="CONTACTENOS.html">INGRESAR</a> </button>
         </section>
-        
     </main>
-
-
 </body>
 </html>
