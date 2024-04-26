@@ -9,7 +9,7 @@ body {
 
 @media screen and (min-width: 480px) {
 body {
-background-image: url(Imagenes/fondo2.png);
+background-image: url(Imagenes/fondoscuro.png);
 background-size: 100%;
 background-position: auto;}
 } 
