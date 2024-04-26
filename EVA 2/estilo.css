@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(Imagenes/fondo.png);
+    background-image: url(Imagenes/fotociudad.png);
     background-size: cover;
     background-position: auto;
 }
@@ -65,6 +65,12 @@ button {
     cursor: pointer;
 }
 
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
 
 .relative {
     position: relative;
@@ -120,4 +126,5 @@ button {
     font-size: 20px;
     text-align: center;
 }
+
 
