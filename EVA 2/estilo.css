@@ -68,7 +68,13 @@ button {
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    width: 50%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
 }
 
 
