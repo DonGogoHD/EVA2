@@ -1,3 +1,5 @@
+/* ############# imagen de fondo ############## */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,6 +15,8 @@ background-image: url(Imagenes/fondoscuro.png);
 background-size: 100%;
 background-position: auto;}
 } 
+
+/* ############# lo de inicio de pagina ############## */
 
 header {
     background-color: #333;
@@ -65,11 +69,20 @@ button {
     cursor: pointer;
 }
 
+
+/* ############# centrar la tabla ############## */
+.tabla{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
+/* ############# final de pagina ############## */
 footer {
     background-color: #333;
     color: #fff;
@@ -116,6 +129,9 @@ footer {
     padding: 20px;
     font-family: 'Arial', sans-serif; 
 }
+
+
+/* ############# imagenes en contenedores ############## */
 
 .grid-container {
     display: grid;
