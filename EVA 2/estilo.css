@@ -90,6 +90,17 @@ footer {
     padding: 20px 0;
 }
 
+/* ############# centrar el quienessomos, cambiar la letra y encerrarlo en un contenedor ############## */
+
+.quienessomos {
+    color:rgb(0, 0, 0);
+    font-weight:bolder;font-family:Helvetica;
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+}
 
 .relative {
     position: relative;
@@ -131,7 +142,7 @@ footer {
 }
 
 
-/* ############# imagenes en contenedores ############## */
+    /* ############# imagenes en contenedores ############## */
 
 .grid-container {
     display: grid;
