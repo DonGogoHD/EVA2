@@ -124,13 +124,6 @@ footer {
     position: relative;
 }
 
-.relative h1{
-    color:rgb(255, 255, 255);
-    font-weight:bolder;
-    font-size: 75px;
-    font-family:Helvetica;
-}
-
 .absolute {
     position: absolute;
     top: 50%;
@@ -158,12 +151,16 @@ footer {
     align-items: center;
 }
 
-.overlay-text {
+.overlay h1{
     color: white;
-    font-size: 24px;
     text-align: center;
     padding: 20px;
-    font-family: 'Arial', sans-serif; 
+    font-weight:lighter;
+    font-size: 75px;
+    font-family:fantasy;
+    background-color: #ff00901b;
+    background-position: auto;
+    background-size: 100%; 
 }
 
 /* ############# ############## */
