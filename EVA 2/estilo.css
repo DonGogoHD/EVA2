@@ -118,19 +118,10 @@ footer {
 }
 
 /* ############# ############## */
-/* ############# Posicion de la imagen de titulo, color, tamaño de fuente y color por encima de la imagen ############## */
+/* ############# Posicion de la imagen de titulo, color, tamaño de fuente por encima de la imagen ############## */
 
 .relative {
     position: relative;
-}
-
-.absolute {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
 }
 
 .imagen {
@@ -145,7 +136,7 @@ footer {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.316); 
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -158,9 +149,6 @@ footer {
     font-weight:lighter;
     font-size: 75px;
     font-family:fantasy;
-    background-color: #ff00901b;
-    background-position: auto;
-    background-size: 100%; 
 }
 
 /* ############# ############## */
