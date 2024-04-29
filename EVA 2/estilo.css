@@ -16,13 +16,16 @@ background-size: 100%;
 background-position: auto;}
 } 
 
-/* ############# lo de inicio de pagina ############## */
+/* ############# ############## */
+/* ############# inicio de pagina ############## */
 
 header {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
 }
+
+/* ############# ############## */
 
 nav ul {
     list-style: none;
@@ -69,20 +72,30 @@ button {
     cursor: pointer;
 }
 
-
+/* ############# ############## */
 /* ############# centrar la tabla ############## */
-.tabla{
+
+.tabla {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.tabla h1 {
+    color:rgb(227, 10, 10);
+    font-weight:bolder;
+    font-family:Helvetica;
+}
+
 
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
 
+/* ############# ############## */
 /* ############# final de pagina ############## */
+
 footer {
     background-color: #333;
     color: #fff;
@@ -90,11 +103,13 @@ footer {
     padding: 20px 0;
 }
 
-/* ############# centrar el quienessomos, cambiar la letra y encerrarlo en un contenedor ############## */
+/* ############# ############## */
+/* ############# centra el quienes somos junto con el texto que tiene abajo y lo encierra en un contenedor ############## */
 
 .quienessomos {
     color:rgb(0, 0, 0);
-    font-weight:bolder;font-family:Helvetica;
+    font-weight:bolder;
+    font-family:Helvetica;
     padding: 10px;
     text-align: center;
     border: 2px solid rgb(0, 0, 0);
@@ -102,8 +117,18 @@ footer {
     color: rgb(0, 0, 0);
 }
 
+/* ############# ############## */
+/* ############# Posicion de la imagen de titulo, color, tamaño de fuente y color por encima de la imagen ############## */
+
 .relative {
     position: relative;
+}
+
+.relative h1{
+    color:rgb(255, 255, 255);
+    font-weight:bolder;
+    font-size: 75px;
+    font-family:Helvetica;
 }
 
 .absolute {
@@ -141,8 +166,28 @@ footer {
     font-family: 'Arial', sans-serif; 
 }
 
+/* ############# ############## */
+/* ############# centrar, color y fuente ############## */
 
-    /* ############# imagenes en contenedores ############## */
+.contacto h2{
+    color:rgb(0, 0, 0);
+    font-weight:bolder;
+    font-family:Helvetica;
+    text-align: center;
+}
+
+.contacto{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 2px;
+}
+
+/* ############# ############## */
+/* ############# contenedores de imagenes y parrafo(p) ############## */
 
 .grid-container {
     display: grid;
@@ -160,4 +205,8 @@ footer {
     text-align: center;
 }
 
-
+.grid-container p{
+    color:rgb(0, 0, 0);
+    font-weight:bolder;
+    font-family:Helvetica;
+}
