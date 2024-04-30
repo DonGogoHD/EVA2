@@ -3,7 +3,7 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding: auto;
     background-image: url(Imagenes/fotociudad.png);
     background-size: cover;
     background-position: auto;
@@ -13,7 +13,8 @@ body {
 body {
 background-image: url(Imagenes/fondoscuro.png);
 background-size: 100%;
-background-position: auto;}
+background-position: auto;
+padding: auto;}
 } 
 
 /* ############# ############## */
@@ -22,7 +23,7 @@ background-position: auto;}
 header {
     background-color: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: auto ;
 }
 
 /* ############# ############## */
